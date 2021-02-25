@@ -1,0 +1,17 @@
+o -n "type a digit or a letter"
+readd character
+case $character
+
+#check for common
+[[:lower:]] )
+echo "you ... $character"
+;;
+[[:uppre"]] )
+echo "ajaba $character "
+#check for digit
+[0-9] )
+echo "you typed the digit $character"
+;;
+* )
+echo "ridi"
+esac
