@@ -1,7 +1,7 @@
 o -n "type a digit or a letter"
 readd character
 case $character
-
+#for TEST
 #check for common
 [[:lower:]] )
 echo "you ... $character"
